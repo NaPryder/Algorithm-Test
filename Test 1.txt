@@ -1,0 +1,93 @@
+Input array of any number (without duplicate item) and x is sum of any two items in array.
+
+      Create algorithm to find x is valid or invalid follow example.
+
+
+
+Example 1
+
+Input:  array = [1, -2, 0, -3, 5]
+
+        x = 6
+
+Output: Valid number 1 + 5 = 6
+
+
+
+Description:
+
+find x = 6 in array [1, -2, 0, -3, 5]
+
+     x = array[0] + array[4] = 6
+
+     then result = Valid
+
+------------------------------
+
+
+
+Example 2
+
+Input:  array = [1, -2, 0, -3, 5]
+
+        x = -4
+
+Output: invalid number -4
+
+
+
+Description:
+
+find x = -4 in array [1, -2, 0, -3, 5]
+
+     not found any sum of 2 values in array
+
+     then result = Invalid
+
+------------------------------
+
+
+
+Example 3
+
+Input:  array = [1, -2, 0, -3, 5]
+
+        x = 10
+
+Output: invalid number 10
+
+
+
+Description:
+
+find x = 10 in array [1, -2, 0, -3, 5]
+
+     not found any sum of 2 values in array
+
+     then result = Invalid
+
+------------------------------
+
+
+
+Example 4
+
+Input:  array = [0, 9, 5, -2, -6, 11]
+
+        x = 5
+
+Output: Valid number 0 + 5 = 5
+
+------------------------------
+
+
+
+Example 5
+
+Input:  array = [-1, 1, -2, -6, 11, 5]
+
+        x = 5
+
+Output: Valid number -6 + 11 = 5
+
+------------------------------
